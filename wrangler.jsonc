@@ -17,12 +17,8 @@
 	"observability": {
 		"enabled": true
 	},
-	"routes": [
-		{
-			"pattern": "mcp.jina.ai",
-			"custom_domain": true
-		}
-	]
+	// Custom domain routes removed for fork deployment — uses default .workers.dev subdomain
+	// Add custom domains via Cloudflare Workers dashboard > your worker > Custom Domains
 	/**
 	 * Smart Placement
 	 * Docs: https://developers.cloudflare.com/workers/configuration/smart-placement/#smart-placement
